@@ -103,7 +103,7 @@ src
 Clone the repository:
 
 ```
-git clone https://github.com/your-username/popx-assignment.git
+git clone https://github.com/rahul-singh011/popx-assignment
 ```
 
 Navigate to the project folder:

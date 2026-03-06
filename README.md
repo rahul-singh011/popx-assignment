@@ -11,7 +11,7 @@ Deployed on Netlify
 (Replace this with your deployed link after hosting)
 
 ```
-https://your-project-name.netlify.app
+https://popx-assignment-rahul.netlify.app/
 ```
 
 ---

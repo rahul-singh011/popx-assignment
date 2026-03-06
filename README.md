@@ -5,7 +5,7 @@ The project includes **user registration, login authentication, and a protected 
 
 ---
 
-## 🚀 Live Demo
+##  Live Demo
 
 Deployed on Netlify
 
@@ -129,12 +129,6 @@ npm run dev
 ## 🌐 Deployment
 
 The project is deployed using **Netlify**.
-
-Steps:
-
-1. Push the code to GitHub
-2. Connect the repository to Netlify
-3. Deploy automatically
 
 ---
 

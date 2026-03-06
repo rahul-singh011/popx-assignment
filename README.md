@@ -1,16 +1,184 @@
-# React + Vite
+# PopX Authentication UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive **React + TailwindCSS authentication application** built as part of an assignment.
+The project includes **user registration, login authentication, and a protected profile page** with client-side validation and local storage persistence.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## React Compiler
+Deployed on Netlify
+(Replace this with your deployed link after hosting)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```
+https://your-project-name.netlify.app
+```
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📌 Features
+
+### 🔐 Authentication Flow
+
+* User **Registration Page**
+* User **Login Page**
+* **Protected Profile Page**
+* Redirects unauthenticated users to login
+
+---
+
+### 📝 Registration Validation
+
+* Required field validation
+* Phone number must be **10 digits**
+* Password **strength indicator**
+* Error highlighting for invalid inputs
+* Stores user data in **localStorage**
+
+---
+
+### 🔑 Login Validation
+
+* Checks credentials against stored user data
+* Shows message if user **is not registered**
+* Shows message for **invalid credentials**
+
+---
+
+### 👤 Profile Page
+
+* Displays:
+
+  * User name
+  * Email
+  * Phone number
+* Shows a placeholder profile image
+* Protected route (accessible only after login)
+
+---
+
+### 🔔 UX Improvements
+
+* Toast notifications instead of alerts
+* Disabled login button when fields are empty
+* Clean mobile-style layout
+* Smooth UI interactions
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology      | Purpose                       |
+| --------------- | ----------------------------- |
+| React           | Frontend framework            |
+| React Router    | Navigation & routing          |
+| Tailwind CSS    | Styling                       |
+| Vite            | Fast development build tool   |
+| LocalStorage    | Client-side user data storage |
+| React Hot Toast | Notifications                 |
+
+---
+
+## 📂 Project Structure
+
+```
+src
+│
+├── components
+│   └── Layout.jsx
+│
+├── pages
+│   ├── Welcome.jsx
+│   ├── Login.jsx
+│   ├── Register.jsx
+│   └── Profile.jsx
+│
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```
+git clone https://github.com/your-username/popx-assignment.git
+```
+
+Navigate to the project folder:
+
+```
+cd popx-assignment
+```
+
+Install dependencies:
+
+```
+npm install
+```
+
+Start the development server:
+
+```
+npm run dev
+```
+
+---
+
+## 🌐 Deployment
+
+The project is deployed using **Netlify**.
+
+Steps:
+
+1. Push the code to GitHub
+2. Connect the repository to Netlify
+3. Deploy automatically
+
+---
+
+## 📸 Screens
+
+### Welcome Page
+
+Landing screen for login or account creation.
+
+### Register Page
+
+User can create a new account with validation.
+
+### Login Page
+
+Registered users can sign in securely.
+
+### Profile Page
+
+Displays user information after successful login.
+
+---
+
+## 📈 Future Improvements
+
+* Backend authentication using Node.js / Express
+* Secure password hashing
+* JWT authentication
+* Database integration (MongoDB)
+* Profile image upload
+
+---
+
+## 👨‍💻 Author
+
+**Rahul Singh**
+
+GitHub
+https://github.com/rahul-singh011
+
+LinkedIn
+https://in.linkedin.com/in/rahulsingh-dev01
+
+---
+
+⭐ If you like this project, consider giving it a star.

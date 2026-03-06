@@ -8,7 +8,6 @@ The project includes **user registration, login authentication, and a protected 
 ## 🚀 Live Demo
 
 Deployed on Netlify
-(Replace this with your deployed link after hosting)
 
 ```
 https://popx-assignment-rahul.netlify.app/
